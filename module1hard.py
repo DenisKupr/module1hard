@@ -21,3 +21,11 @@ dct_ = {
 }
 
 print(dct_)  # Вывод в консоль
+
+# Решение с помощью цикла
+
+result = {}
+for now in range(len(lst_)):
+    result[lst_[now]]=sum(grades[now])/len(grades[now])
+print(result)
+
